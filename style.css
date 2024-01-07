@@ -211,7 +211,7 @@ span{
     font-size: 2.6rem;
 }
 .about-content p{
-    font-size: 1.6rem;
+    font-size: 16px;
     margin: 2rem 0 3rem;
 }
 .btn-box.btns{
@@ -421,7 +421,9 @@ span{
 .achievements-content .content .year i{
     padding-right: .5rem;
 }
-
+.achievements-content h3{
+  font-weight: bold;
+}
 .achievements-content .content p{
     padding-top: .5rem;
 }
@@ -438,8 +440,9 @@ span{
   margin-left: 5rem;
   margin-right: 5rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   padding-bottom: 5rem;
   
@@ -600,11 +603,11 @@ section h2 {
 }
   
 .card__title{
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: bold;
     position: relative;
     top: .2em;
-    color: #F87474;
+    color: #121212;
 }
   
 .card__name{
@@ -613,8 +616,9 @@ section h2 {
   
 .card__text{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin: 1em 0;
+    text-align: start;
 }
   
 .card__btn{
@@ -1107,10 +1111,10 @@ span{
     background: #050505;
 }
 .portfolio-container {
-  margin-left: 0%;
+  margin-left: 1rem;
   margin-right: 0rem;
-  /*display: grid;*/
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 1rem;
   padding-bottom: 5rem;
