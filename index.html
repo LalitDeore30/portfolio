@@ -1492,6 +1492,9 @@
         }
         @media (max-width: 768px) {
           /* Remove all .nav-links dropdown styles for mobile except inside .sidebar */
+          .nav-links.desktop {
+               display: none !important;
+          }
           .nav-links,
           .nav-links.active {
             display: unset !important;
@@ -1625,6 +1628,15 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#home" class="logo">Lalit.</a>
+            <ul class="nav-links desktop">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
             <div class="hamburger" onclick="toggleSidebar()">
                 <span></span>
                 <span></span>
