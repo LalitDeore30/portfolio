@@ -2693,6 +2693,15 @@
     </div>
 
     <script>
+      function scrollProjects(direction) {
+  const container = document.getElementById("projectCards");
+  const scrollAmount = container.clientWidth + 20; // adjust offset if needed
+  container.scrollBy({
+    left: direction * scrollAmount,
+    behavior: "smooth"
+  });
+}
+
       // Mobile menu toggle
       function toggleSidebar() {
         const sidebar = document.getElementById("sidebarMenu");
